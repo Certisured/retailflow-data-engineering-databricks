@@ -1,4 +1,4 @@
-# RetailFlow: Data Engineering from Zero to Pipeline
+# RetailFlow: Data Engineering from Zero to Pipeline using Databricks
 
 A two-day, 12-hour beginner course from Certisured using Python and Databricks Serverless. Start from zero, build a small retail data pipeline, and explain why its answers are trustworthy.
 
