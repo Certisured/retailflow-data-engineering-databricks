@@ -1,0 +1,182 @@
+{
+  "package": "RetailFlow learner dataset",
+  "dataset_version": "1.0.0",
+  "distribution_version": "1.0.0",
+  "files": [
+    {
+      "path": "checks/expected/final_by_cash_date.csv",
+      "bytes": 215,
+      "sha256": "3aeac1c4378e6ac7ef34fe8545b4635f742457ae16f11d767d5813639f10de7a",
+      "data_rows": 5
+    },
+    {
+      "path": "checks/expected/final_by_category.csv",
+      "bytes": 330,
+      "sha256": "0efa07fdc13aae7ee3d23da048584555b0e5918ea71f628998254d60e221d4d2",
+      "data_rows": 4
+    },
+    {
+      "path": "checks/expected/final_by_product.csv",
+      "bytes": 809,
+      "sha256": "8eff94af538fda382a15860606c60571a3286c403e0d76b96d4361a2dc731945",
+      "data_rows": 12
+    },
+    {
+      "path": "checks/expected/final_by_sale_date.csv",
+      "bytes": 391,
+      "sha256": "b13026df61ac50224cef99649483643422d7fa1f25f5ea0e41e7a02c2ec82ae9",
+      "data_rows": 5
+    },
+    {
+      "path": "checks/expected/final_by_store.csv",
+      "bytes": 798,
+      "sha256": "fb96eebc9ecd4bf436ae7562bae01146c9604b212999bd4411f87bc4ba44f627",
+      "data_rows": 10
+    },
+    {
+      "path": "checks/expected/final_line_amounts.csv",
+      "bytes": 7380,
+      "sha256": "25c4c20994e0688ba3372dbc2018919e9332da2b8c949c6f39a7ac31eade8e06",
+      "data_rows": 80
+    },
+    {
+      "path": "checks/expected/final_metrics.csv",
+      "bytes": 260,
+      "sha256": "165d6c99ce2c37eb1fa5d683763dd8863b99ee04d63aaef47190016ec6dfb9b3",
+      "data_rows": 13
+    },
+    {
+      "path": "checks/expected/final_sales.csv",
+      "bytes": 4677,
+      "sha256": "809aadf68b7001c42209d0355dff5c50d4156d534f7f5d832a886549fcec7a70",
+      "data_rows": 80
+    },
+    {
+      "path": "checks/expected/initial_by_cash_date.csv",
+      "bytes": 147,
+      "sha256": "60020e5fcd0400cccad34be44150c2585ecc2498a50c6bedc0786f42ae0598d0",
+      "data_rows": 3
+    },
+    {
+      "path": "checks/expected/initial_by_category.csv",
+      "bytes": 324,
+      "sha256": "333e6c2fb20207d40f6719679e998f072ffad5be685b7c7dbb329f7fd2810ea4",
+      "data_rows": 4
+    },
+    {
+      "path": "checks/expected/initial_by_product.csv",
+      "bytes": 797,
+      "sha256": "5d48fc7c7500955643421af44d0701ac95783508bcd152a72eed3ac50aeee7b8",
+      "data_rows": 12
+    },
+    {
+      "path": "checks/expected/initial_by_sale_date.csv",
+      "bytes": 278,
+      "sha256": "5fe25a589edb23445f87dc29e9d0631bf0a04da9d84b6e80594452f0f6068c43",
+      "data_rows": 3
+    },
+    {
+      "path": "checks/expected/initial_by_store.csv",
+      "bytes": 787,
+      "sha256": "25fd8769663fd0d887683e0e3511390316fc9d8ac23e2e443abec6f8683f2698",
+      "data_rows": 10
+    },
+    {
+      "path": "checks/expected/initial_line_amounts.csv",
+      "bytes": 5583,
+      "sha256": "6583b000bc21f95f159e75850ef16b2e26c08d4ce54d95227879ed8c42447f17",
+      "data_rows": 60
+    },
+    {
+      "path": "checks/expected/initial_metrics.csv",
+      "bytes": 260,
+      "sha256": "b7d7d77a4d85b78628071a06c515175d6b5161920adfc5beeefcc6926253c8f2",
+      "data_rows": 13
+    },
+    {
+      "path": "checks/expected/initial_sales.csv",
+      "bytes": 3539,
+      "sha256": "b09d1804cb91ef55cd0552c3e9dd2943f06a82c4e4cc76d8945da87439b43b85",
+      "data_rows": 60
+    },
+    {
+      "path": "checks/expected/quarantine.csv",
+      "bytes": 571,
+      "sha256": "2aa22ab41cd9a78e09826de45e15fa552300589871f14b4d3474c5bb1726c681",
+      "data_rows": 6
+    },
+    {
+      "path": "data/customers.csv",
+      "bytes": 634,
+      "sha256": "9ed068cf80c5a3f8ddd1277f1998948531e210fa55457677bad197b1a4d7f2dd",
+      "data_rows": 20
+    },
+    {
+      "path": "data/products.csv",
+      "bytes": 413,
+      "sha256": "3b7408557bb13258c0b9405d3db254e2e250d3b94b4f10f1d8d3f4b8f50bc95b",
+      "data_rows": 12
+    },
+    {
+      "path": "data/returns.csv",
+      "bytes": 346,
+      "sha256": "e15b85201d2f915d643646b53e0fdfb35b89e30d4a182c41a42a4998c206cf9c",
+      "data_rows": 6
+    },
+    {
+      "path": "data/sales_batch_01.csv",
+      "bytes": 3539,
+      "sha256": "b09d1804cb91ef55cd0552c3e9dd2943f06a82c4e4cc76d8945da87439b43b85",
+      "data_rows": 60
+    },
+    {
+      "path": "data/sales_batch_02.csv",
+      "bytes": 1437,
+      "sha256": "8ecee73778a211fc898e53ebb6029b9fa582cb3449ad85c6ec4b1f1451ca4da3",
+      "data_rows": 23
+    },
+    {
+      "path": "data/sales_dirty.csv",
+      "bytes": 3866,
+      "sha256": "4793e6144d7d6dcda0725ea13f2d20c81ae57efd422e6e962390286dcc4e8564",
+      "data_rows": 68
+    },
+    {
+      "path": "data/stores.csv",
+      "bytes": 517,
+      "sha256": "07141ed4099e0906ff716682880696c24932d0f7c166ee61d68cda415955614c",
+      "data_rows": 10
+    },
+    {
+      "path": "docs/data_dictionary.csv",
+      "bytes": 6112,
+      "sha256": "11b31326cd137f87c7b02c1ffd7f231593458f760d34dc62f84ce07dd9d793a3",
+      "data_rows": 53
+    },
+    {
+      "path": "docs/DATA_DICTIONARY.md",
+      "bytes": 9547,
+      "sha256": "8f72d5c138a06492bfaeaa05f43c01f34a7553200bed98f6e83a82f91eaf4c4c"
+    },
+    {
+      "path": "docs/INCREMENTAL.md",
+      "bytes": 2288,
+      "sha256": "5a088998958eee5768f86fb63a4e44703c4bb8ce5a91d21ac4abcdde07ab9c4c"
+    },
+    {
+      "path": "docs/QUALITY_RULES.md",
+      "bytes": 3036,
+      "sha256": "07a0c2a90681d6037da73e476b6880d7ca4ce715407c7677b04dd0f7d0a8b179"
+    },
+    {
+      "path": "docs/STORY.md",
+      "bytes": 2117,
+      "sha256": "f2fb484c1d6b395503b17dee5c29534a9cf9dfe5d11163668f9fff9af7c8c86e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 817,
+      "sha256": "8746cbd7bf4cef887bc8852f28f086630b6506c9fea6fbaaae6be7c478506f9c"
+    }
+  ]
+}

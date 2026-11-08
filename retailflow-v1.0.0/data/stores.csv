@@ -1,0 +1,11 @@
+store_id,store_name,city,state,region
+ST01,RetailFlow Mumbai,Mumbai,Maharashtra,West
+ST02,RetailFlow Pune,Pune,Maharashtra,West
+ST03,RetailFlow Delhi,Delhi,Delhi,North
+ST04,RetailFlow Jaipur,Jaipur,Rajasthan,North
+ST05,RetailFlow Bengaluru,Bengaluru,Karnataka,South
+ST06,RetailFlow Chennai,Chennai,Tamil Nadu,South
+ST07,RetailFlow Hyderabad,Hyderabad,Telangana,South
+ST08,RetailFlow Kolkata,Kolkata,West Bengal,East
+ST09,RetailFlow Bhubaneswar,Bhubaneswar,Odisha,East
+ST10,RetailFlow Ahmedabad,Ahmedabad,Gujarat,West

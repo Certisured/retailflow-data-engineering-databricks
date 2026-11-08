@@ -1,0 +1,282 @@
+{
+  "package": "Certisured RetailFlow learner starter",
+  "version": "1.0.0",
+  "dataset_version": "1.0.0",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 60,
+      "sha256": "a9613de1e9533c2f748eab9318a33d873607a43b7695e980ec14e5b0d30f2f28"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 107,
+      "sha256": "93813baef2ec66cb897c53686946e61c59684058bd1c2f065af281b2ca7cf46f"
+    },
+    {
+      "path": "docs/CHECKPOINTS.md",
+      "bytes": 1387,
+      "sha256": "e45d3f3ef7f1b2d017118c1496058f35036ccbf9f76b42d5f204707ca31b5f94"
+    },
+    {
+      "path": "docs/COURSE_GUIDE.md",
+      "bytes": 2256,
+      "sha256": "0f84dac99c9bcf7715f30e6aa90d01591ef300ea3967bebf6a07e86961d74396"
+    },
+    {
+      "path": "GITHUB_UPLOAD.md",
+      "bytes": 2484,
+      "sha256": "846aa01b9364d4a7b58b7f9eb5719f640554a14ee0a2df2fbcc3900605489eb4"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 448,
+      "sha256": "fc6b0a3b4182c442e236b1cea9ba18f4ae07cdb9ae7e673ba6744279892a73e6"
+    },
+    {
+      "path": "notebooks/00_setup_and_preflight.ipynb",
+      "bytes": 17671,
+      "sha256": "b279a32dc88b0c729cf351cc4b22aa79e81ece7f3f9a3b18838f04ea1b08a771"
+    },
+    {
+      "path": "notebooks/01_python_from_zero.ipynb",
+      "bytes": 9555,
+      "sha256": "8a9b1f3fca5deb9594666d44f46f44cc81c1082a59890ce07138d06935961add"
+    },
+    {
+      "path": "notebooks/02_read_join_and_first_report.ipynb",
+      "bytes": 18750,
+      "sha256": "40b0220689b77f51a839e882b18d4746917690d9a2e02367e6accc2a12a3b080"
+    },
+    {
+      "path": "notebooks/03_clean_bronze_and_silver.ipynb",
+      "bytes": 19785,
+      "sha256": "452adbb48709655aa6366bda26cdf4ba505ecf21a4f461da9f9307eaa1c153b1"
+    },
+    {
+      "path": "notebooks/04_initial_reports_and_checks.ipynb",
+      "bytes": 23613,
+      "sha256": "98a75a717101e5e821fd6877292911d7db019cb1a314cc7f15ec300d2b19642c"
+    },
+    {
+      "path": "notebooks/05_incremental_and_replay.ipynb",
+      "bytes": 19623,
+      "sha256": "e977dfce9d1f7c9fe9bafff703696d8eda05b14c50b5a880de979e3b2eebcd6b"
+    },
+    {
+      "path": "notebooks/06_final_reports_and_checks.ipynb",
+      "bytes": 24277,
+      "sha256": "7ffb48d9baf8b05c11f8dda181d993c42e93ca5e86050c0ad2c63fdf40e177ca"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5013,
+      "sha256": "e60f8f90a40fb070f0b91aa4b0dc20270ef7820cd7f7bb9c37e14414ee080727"
+    },
+    {
+      "path": "retailflow-v1.0.0/checks/expected/final_by_cash_date.csv",
+      "bytes": 215,
+      "sha256": "3aeac1c4378e6ac7ef34fe8545b4635f742457ae16f11d767d5813639f10de7a",
+      "data_rows": 5
+    },
+    {
+      "path": "retailflow-v1.0.0/checks/expected/final_by_category.csv",
+      "bytes": 330,
+      "sha256": "0efa07fdc13aae7ee3d23da048584555b0e5918ea71f628998254d60e221d4d2",
+      "data_rows": 4
+    },
+    {
+      "path": "retailflow-v1.0.0/checks/expected/final_by_product.csv",
+      "bytes": 809,
+      "sha256": "8eff94af538fda382a15860606c60571a3286c403e0d76b96d4361a2dc731945",
+      "data_rows": 12
+    },
+    {
+      "path": "retailflow-v1.0.0/checks/expected/final_by_sale_date.csv",
+      "bytes": 391,
+      "sha256": "b13026df61ac50224cef99649483643422d7fa1f25f5ea0e41e7a02c2ec82ae9",
+      "data_rows": 5
+    },
+    {
+      "path": "retailflow-v1.0.0/checks/expected/final_by_store.csv",
+      "bytes": 798,
+      "sha256": "fb96eebc9ecd4bf436ae7562bae01146c9604b212999bd4411f87bc4ba44f627",
+      "data_rows": 10
+    },
+    {
+      "path": "retailflow-v1.0.0/checks/expected/final_line_amounts.csv",
+      "bytes": 7380,
+      "sha256": "25c4c20994e0688ba3372dbc2018919e9332da2b8c949c6f39a7ac31eade8e06",
+      "data_rows": 80
+    },
+    {
+      "path": "retailflow-v1.0.0/checks/expected/final_metrics.csv",
+      "bytes": 260,
+      "sha256": "165d6c99ce2c37eb1fa5d683763dd8863b99ee04d63aaef47190016ec6dfb9b3",
+      "data_rows": 13
+    },
+    {
+      "path": "retailflow-v1.0.0/checks/expected/final_sales.csv",
+      "bytes": 4677,
+      "sha256": "809aadf68b7001c42209d0355dff5c50d4156d534f7f5d832a886549fcec7a70",
+      "data_rows": 80
+    },
+    {
+      "path": "retailflow-v1.0.0/checks/expected/initial_by_cash_date.csv",
+      "bytes": 147,
+      "sha256": "60020e5fcd0400cccad34be44150c2585ecc2498a50c6bedc0786f42ae0598d0",
+      "data_rows": 3
+    },
+    {
+      "path": "retailflow-v1.0.0/checks/expected/initial_by_category.csv",
+      "bytes": 324,
+      "sha256": "333e6c2fb20207d40f6719679e998f072ffad5be685b7c7dbb329f7fd2810ea4",
+      "data_rows": 4
+    },
+    {
+      "path": "retailflow-v1.0.0/checks/expected/initial_by_product.csv",
+      "bytes": 797,
+      "sha256": "5d48fc7c7500955643421af44d0701ac95783508bcd152a72eed3ac50aeee7b8",
+      "data_rows": 12
+    },
+    {
+      "path": "retailflow-v1.0.0/checks/expected/initial_by_sale_date.csv",
+      "bytes": 278,
+      "sha256": "5fe25a589edb23445f87dc29e9d0631bf0a04da9d84b6e80594452f0f6068c43",
+      "data_rows": 3
+    },
+    {
+      "path": "retailflow-v1.0.0/checks/expected/initial_by_store.csv",
+      "bytes": 787,
+      "sha256": "25fd8769663fd0d887683e0e3511390316fc9d8ac23e2e443abec6f8683f2698",
+      "data_rows": 10
+    },
+    {
+      "path": "retailflow-v1.0.0/checks/expected/initial_line_amounts.csv",
+      "bytes": 5583,
+      "sha256": "6583b000bc21f95f159e75850ef16b2e26c08d4ce54d95227879ed8c42447f17",
+      "data_rows": 60
+    },
+    {
+      "path": "retailflow-v1.0.0/checks/expected/initial_metrics.csv",
+      "bytes": 260,
+      "sha256": "b7d7d77a4d85b78628071a06c515175d6b5161920adfc5beeefcc6926253c8f2",
+      "data_rows": 13
+    },
+    {
+      "path": "retailflow-v1.0.0/checks/expected/initial_sales.csv",
+      "bytes": 3539,
+      "sha256": "b09d1804cb91ef55cd0552c3e9dd2943f06a82c4e4cc76d8945da87439b43b85",
+      "data_rows": 60
+    },
+    {
+      "path": "retailflow-v1.0.0/checks/expected/quarantine.csv",
+      "bytes": 571,
+      "sha256": "2aa22ab41cd9a78e09826de45e15fa552300589871f14b4d3474c5bb1726c681",
+      "data_rows": 6
+    },
+    {
+      "path": "retailflow-v1.0.0/data/customers.csv",
+      "bytes": 634,
+      "sha256": "9ed068cf80c5a3f8ddd1277f1998948531e210fa55457677bad197b1a4d7f2dd",
+      "data_rows": 20
+    },
+    {
+      "path": "retailflow-v1.0.0/data/products.csv",
+      "bytes": 413,
+      "sha256": "3b7408557bb13258c0b9405d3db254e2e250d3b94b4f10f1d8d3f4b8f50bc95b",
+      "data_rows": 12
+    },
+    {
+      "path": "retailflow-v1.0.0/data/returns.csv",
+      "bytes": 346,
+      "sha256": "e15b85201d2f915d643646b53e0fdfb35b89e30d4a182c41a42a4998c206cf9c",
+      "data_rows": 6
+    },
+    {
+      "path": "retailflow-v1.0.0/data/sales_batch_01.csv",
+      "bytes": 3539,
+      "sha256": "b09d1804cb91ef55cd0552c3e9dd2943f06a82c4e4cc76d8945da87439b43b85",
+      "data_rows": 60
+    },
+    {
+      "path": "retailflow-v1.0.0/data/sales_batch_02.csv",
+      "bytes": 1437,
+      "sha256": "8ecee73778a211fc898e53ebb6029b9fa582cb3449ad85c6ec4b1f1451ca4da3",
+      "data_rows": 23
+    },
+    {
+      "path": "retailflow-v1.0.0/data/sales_dirty.csv",
+      "bytes": 3866,
+      "sha256": "4793e6144d7d6dcda0725ea13f2d20c81ae57efd422e6e962390286dcc4e8564",
+      "data_rows": 68
+    },
+    {
+      "path": "retailflow-v1.0.0/data/stores.csv",
+      "bytes": 517,
+      "sha256": "07141ed4099e0906ff716682880696c24932d0f7c166ee61d68cda415955614c",
+      "data_rows": 10
+    },
+    {
+      "path": "retailflow-v1.0.0/docs/data_dictionary.csv",
+      "bytes": 6112,
+      "sha256": "11b31326cd137f87c7b02c1ffd7f231593458f760d34dc62f84ce07dd9d793a3",
+      "data_rows": 53
+    },
+    {
+      "path": "retailflow-v1.0.0/docs/DATA_DICTIONARY.md",
+      "bytes": 9547,
+      "sha256": "8f72d5c138a06492bfaeaa05f43c01f34a7553200bed98f6e83a82f91eaf4c4c"
+    },
+    {
+      "path": "retailflow-v1.0.0/docs/INCREMENTAL.md",
+      "bytes": 2288,
+      "sha256": "5a088998958eee5768f86fb63a4e44703c4bb8ce5a91d21ac4abcdde07ab9c4c"
+    },
+    {
+      "path": "retailflow-v1.0.0/docs/QUALITY_RULES.md",
+      "bytes": 3036,
+      "sha256": "07a0c2a90681d6037da73e476b6880d7ca4ce715407c7677b04dd0f7d0a8b179"
+    },
+    {
+      "path": "retailflow-v1.0.0/docs/STORY.md",
+      "bytes": 2117,
+      "sha256": "f2fb484c1d6b395503b17dee5c29534a9cf9dfe5d11163668f9fff9af7c8c86e"
+    },
+    {
+      "path": "retailflow-v1.0.0/manifest.json",
+      "bytes": 5766,
+      "sha256": "320ed441e94c06f8877fc33b3f60d5a83da50aab3adcd9056ab8f8acbdd2fe82"
+    },
+    {
+      "path": "retailflow-v1.0.0/README.md",
+      "bytes": 817,
+      "sha256": "8746cbd7bf4cef887bc8852f28f086630b6506c9fea6fbaaae6be7c478506f9c"
+    },
+    {
+      "path": "scripts/verify_repo.py",
+      "bytes": 5527,
+      "sha256": "24898abd5f48e12645be475a4776ea4e8a22e953d29915b534a56e7272d0b11f"
+    },
+    {
+      "path": "SETUP.md",
+      "bytes": 4888,
+      "sha256": "13fb06121de4fcb25516a52bc0a772139a4fc3a1eb5b7a7916e82449e864994d"
+    },
+    {
+      "path": "submissions/README.md",
+      "bytes": 925,
+      "sha256": "d23da87593b2d940363f9a403db96188fc4b4c17b7cac215b411abc6a529a828"
+    },
+    {
+      "path": "VALIDATION_REPORT.md",
+      "bytes": 1588,
+      "sha256": "36c754648266d3d1e25830309ef5b5946ed237a09753788afe1c33911c15a743"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 72,
+      "sha256": "e4ee278715d14031734ac78ac187ddbe6e557877f3b10eebeb7e5ffc39a6e77e"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+store_id,store_name,sale_count,units_sold,gross_sales,discount_amount,net_sales,returned_units,refund_amount,net_revenue
+ST01,RetailFlow Mumbai,8,15,2270.00,134.00,2136.00,1,80.00,2056.00
+ST02,RetailFlow Pune,8,17,2350.00,163.00,2187.00,1,72.00,2115.00
+ST03,RetailFlow Delhi,8,17,2840.00,212.00,2628.00,0,0.00,2628.00
+ST04,RetailFlow Jaipur,8,15,2410.00,146.00,2264.00,0,0.00,2264.00
+ST05,RetailFlow Bengaluru,8,17,2450.00,157.00,2293.00,2,357.50,1935.50
+ST06,RetailFlow Chennai,8,16,1810.00,126.00,1684.00,0,0.00,1684.00
+ST07,RetailFlow Hyderabad,8,15,1450.00,92.00,1358.00,0,0.00,1358.00
+ST08,RetailFlow Kolkata,8,17,1410.00,83.00,1327.00,0,0.00,1327.00
+ST09,RetailFlow Bhubaneswar,8,16,2020.00,157.00,1863.00,0,0.00,1863.00
+ST10,RetailFlow Ahmedabad,8,15,2280.00,146.00,2134.00,2,427.50,1706.50

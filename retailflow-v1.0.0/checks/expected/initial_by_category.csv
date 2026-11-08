@@ -1,0 +1,5 @@
+category,sale_count,units_sold,gross_sales,discount_amount,net_sales,returned_units,refund_amount,net_revenue
+Grocery,23,45,5100.00,322.00,4778.00,2,152.00,4626.00
+Home,15,30,7600.00,515.00,7085.00,0,0.00,7085.00
+Personal Care,12,24,1920.00,116.00,1804.00,1,120.00,1684.00
+Stationery,10,21,850.00,61.00,789.00,0,0.00,789.00

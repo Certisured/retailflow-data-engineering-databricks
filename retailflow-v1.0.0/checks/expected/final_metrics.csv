@@ -1,0 +1,14 @@
+metric,value
+sale_count,80
+units_sold,160
+gross_sales,21290.00
+discount_amount,1416.00
+net_sales,19874.00
+returned_units,6
+refund_amount,937.00
+net_revenue,18937.00
+net_units,154
+average_sale_value,248.43
+identified_customers,20
+guest_sales,13
+return_events,6

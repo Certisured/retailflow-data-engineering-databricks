@@ -1,0 +1,13 @@
+product_id,product_name,category,list_price
+P001,Rice 1 kg,Grocery,80.00
+P002,Milk 1 L,Grocery,60.00
+P003,Tea 250 g,Grocery,150.00
+P004,Soap 100 g,Personal Care,40.00
+P005,Shampoo 200 mL,Personal Care,120.00
+P006,Notebook A5,Stationery,50.00
+P007,Pen Pack,Stationery,30.00
+P008,Water Bottle,Home,200.00
+P009,Lunch Box,Home,300.00
+P010,Towel,Home,250.00
+P011,Coffee 100 g,Grocery,180.00
+P012,Desk Lamp,Home,500.00

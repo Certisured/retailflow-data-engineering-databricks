@@ -1,0 +1,54 @@
+file,column,silver_type,nullable,description,example
+customers.csv,customer_id,STRING,no,Customer primary key in customers; nullable sales foreign key. Blank sales customer means guest.,C001
+customers.csv,customer_name,STRING,no,"Invented first name, no real customer identity.",Asha
+customers.csv,city,STRING,no,Indian city; customer city may differ from purchase store city.,Mumbai
+customers.csv,signup_date,DATE,no,Date this fictional customer joined; yyyy-MM-dd.,2025-12-01
+products.csv,product_id,STRING,no,Product primary key in products; sales foreign key to products.product_id.,P001
+products.csv,product_name,STRING,no,Product label with pack size where relevant.,Rice 1 kg
+products.csv,category,STRING,no,"Grocery, Personal Care, Stationery, Home.",Grocery
+products.csv,list_price,"DECIMAL(12,2)",no,Reference INR price per unit; used only to fill absent sale prices.,80.00
+returns.csv,return_id,STRING,no,Unique return-event primary key.,R001
+returns.csv,sale_id,STRING,no,One product-line transaction; primary key in current sales; foreign key in returns.,S0001
+returns.csv,return_date,DATE,no,Date refund is paid; on/after original sale_date; yyyy-MM-dd.,2026-01-02
+returns.csv,return_quantity,INT,no,Positive whole returned units; cumulative units cannot exceed sold quantity.,1
+returns.csv,refund_amount,"DECIMAL(12,2)",no,"Positive INR refund for this event, discounted unit price times return_quantity.",80.00
+returns.csv,reason,STRING,no,"Damaged, Changed mind, or Wrong item.",Damaged
+returns.csv,available_batch,STRING,no,01 visible initially; 02 becomes visible only after sales batch 02. Preserve leading zero.,01
+sales_batch_01.csv,source_row_id,STRING,no,Physical row identity within a file; retain for tracing. Not the sale business key.,B01-001
+sales_batch_01.csv,sale_id,STRING,no,One product-line transaction; primary key in current sales; foreign key in returns.,S0001
+sales_batch_01.csv,sale_date,DATE,no,"Business date in Asia/Kolkata, normally yyyy-MM-dd.",2026-01-01
+sales_batch_01.csv,store_id,STRING,no,Store primary key in stores; sales foreign key to stores.store_id.,ST01
+sales_batch_01.csv,product_id,STRING,no,Product primary key in products; sales foreign key to products.product_id.,P001
+sales_batch_01.csv,customer_id,STRING,yes,Customer primary key in customers; nullable sales foreign key. Blank sales customer means guest.,C001
+sales_batch_01.csv,quantity,INT,no,"Whole units sold, integer >=1. Returns are separate positive events.",1
+sales_batch_01.csv,unit_price,"DECIMAL(12,2)",dirty input only,Historical INR price per unit before discount. Must be >0 after repair.,80.00
+sales_batch_01.csv,discount_pct,"DECIMAL(5,2)",dirty input only,"Percentage points in [0,100]; 5 means 5%, not 0.05.",0
+sales_batch_01.csv,payment_method,STRING,no,"UPI, CARD, CASH after trim/uppercase.",UPI
+sales_batch_01.csv,record_version,INT,no,Positive version per sale_id; highest version is current. Equal version must have same business payload.,1
+sales_batch_02.csv,source_row_id,STRING,no,Physical row identity within a file; retain for tracing. Not the sale business key.,B02-001
+sales_batch_02.csv,sale_id,STRING,no,One product-line transaction; primary key in current sales; foreign key in returns.,S0061
+sales_batch_02.csv,sale_date,DATE,no,"Business date in Asia/Kolkata, normally yyyy-MM-dd.",2026-01-04
+sales_batch_02.csv,store_id,STRING,no,Store primary key in stores; sales foreign key to stores.store_id.,ST01
+sales_batch_02.csv,product_id,STRING,no,Product primary key in products; sales foreign key to products.product_id.,P006
+sales_batch_02.csv,customer_id,STRING,yes,Customer primary key in customers; nullable sales foreign key. Blank sales customer means guest.,C001
+sales_batch_02.csv,quantity,INT,no,"Whole units sold, integer >=1. Returns are separate positive events.",1
+sales_batch_02.csv,unit_price,"DECIMAL(12,2)",dirty input only,Historical INR price per unit before discount. Must be >0 after repair.,50.00
+sales_batch_02.csv,discount_pct,"DECIMAL(5,2)",dirty input only,"Percentage points in [0,100]; 5 means 5%, not 0.05.",0
+sales_batch_02.csv,payment_method,STRING,no,"UPI, CARD, CASH after trim/uppercase.",UPI
+sales_batch_02.csv,record_version,INT,no,Positive version per sale_id; highest version is current. Equal version must have same business payload.,1
+sales_dirty.csv,source_row_id,STRING,no,Physical row identity within a file; retain for tracing. Not the sale business key.,D-001
+sales_dirty.csv,sale_id,STRING,no,One product-line transaction; primary key in current sales; foreign key in returns.,S0001
+sales_dirty.csv,sale_date,DATE,no,"Business date in Asia/Kolkata, normally yyyy-MM-dd.",2026-01-01
+sales_dirty.csv,store_id,STRING,no,Store primary key in stores; sales foreign key to stores.store_id., st01 
+sales_dirty.csv,product_id,STRING,no,Product primary key in products; sales foreign key to products.product_id.,P001
+sales_dirty.csv,customer_id,STRING,yes,Customer primary key in customers; nullable sales foreign key. Blank sales customer means guest.,C001
+sales_dirty.csv,quantity,INT,no,"Whole units sold, integer >=1. Returns are separate positive events.",1
+sales_dirty.csv,unit_price,"DECIMAL(12,2)",dirty input only,Historical INR price per unit before discount. Must be >0 after repair.,80.00
+sales_dirty.csv,discount_pct,"DECIMAL(5,2)",dirty input only,"Percentage points in [0,100]; 5 means 5%, not 0.05.",0
+sales_dirty.csv,payment_method,STRING,no,"UPI, CARD, CASH after trim/uppercase.",UPI
+sales_dirty.csv,record_version,INT,no,Positive version per sale_id; highest version is current. Equal version must have same business payload.,1
+stores.csv,store_id,STRING,no,Store primary key in stores; sales foreign key to stores.store_id.,ST01
+stores.csv,store_name,STRING,no,Fictional branch display name.,RetailFlow Mumbai
+stores.csv,city,STRING,no,Indian city; customer city may differ from purchase store city.,Mumbai
+stores.csv,state,STRING,no,Indian state or territory.,Maharashtra
+stores.csv,region,STRING,no,"Teaching grouping: North, South, East, West.",West

@@ -1,0 +1,4 @@
+sale_date,sale_count,units_sold,gross_sales,discount_amount,net_sales,returned_units,refund_amount,net_revenue
+2026-01-01,20,39,4850.00,289.00,4561.00,3,272.00,4289.00
+2026-01-02,20,40,5020.00,361.00,4659.00,0,0.00,4659.00
+2026-01-03,20,41,5600.00,364.00,5236.00,0,0.00,5236.00
