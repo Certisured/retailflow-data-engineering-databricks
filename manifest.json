@@ -70,8 +70,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5013,
-      "sha256": "e60f8f90a40fb070f0b91aa4b0dc20270ef7820cd7f7bb9c37e14414ee080727"
+      "bytes": 5030,
+      "sha256": "d2497dd0de5677728258f3cebccc12e88618836f3938ee637abcfb6ac10cf604"
     },
     {
       "path": "retailflow-v1.0.0/checks/expected/final_by_cash_date.csv",
